@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Ana Cristina Domingues: marketing, tecnologia, organização e projetos digitais com visão prática de negócio.">
+  <meta name="theme-color" content="#003353">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ana Cristina Domingues | Marketing, Tecnologia e Transformação Digital">
+  <meta property="og:description" content="Projetos e trajetória conectando marketing, tecnologia, organização e negócio de um jeito prático.">
+  <meta property="og:image" content="assets/capa-compartilhamento.webp">
+  <meta property="og:locale" content="pt_BR">
+  <title>Ana Cristina Domingues | Marketing, Tecnologia e Transformação Digital</title>
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.23/dist/lenis.css">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://unpkg.com/gsap@3.13.0/dist/gsap.min.js" defer></script>
+  <script src="https://unpkg.com/gsap@3.13.0/dist/ScrollTrigger.min.js" defer></script>
+  <script src="https://unpkg.com/lenis@1.3.23/dist/lenis.min.js" defer></script>
+  <script src="https://unpkg.com/split-type" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+  <div class="page-noise" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+  <header class="site-header">
+    <a class="brand" href="#hero" aria-label="Voltar ao início">
+      <span class="brand-mark">ACD</span>
+      <span class="brand-label">Portfólio 2026</span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Abrir menu">
+      <span>Menu</span>
+      <i></i>
+      <i></i>
+    </button>
+
+    <nav id="primary-nav" class="primary-nav" aria-label="Navegação principal">
+      <a href="#manifesto">Manifesto</a>
+      <a href="#about">Sobre</a>
+      <a href="#trajectory">Trajetória</a>
+      <a href="#projects">Projetos</a>
+      <a href="#tools">Ferramentas</a>
+      <a class="nav-cta" href="#contact">Contato</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="hero" class="hero section-dark">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-orbit hero-orbit-one" aria-hidden="true"></div>
+      <div class="hero-orbit hero-orbit-two" aria-hidden="true"></div>
+
+      <div class="hero-meta container">
+        <p>Marketing estratégico <span>•</span> Tecnologia <span>•</span> Organização</p>
+        <p>Pariquera-Açu, Vale do Ribeira / SP</p>
+      </div>
+
+      <div class="hero-content container">
+        <p class="eyebrow hero-eyebrow">Portfólio profissional</p>
+        <h1 class="hero-title" data-split="chars">
+          <span>ANA</span>
+          <span>CRISTINA</span>
+          <span>DOMINGUES</span>
+        </h1>
+        <div class="hero-bottom">
+          <p class="hero-description">
+            Conecto marketing, tecnologia e organização para desenvolver soluções que deixam a comunicação, os projetos e a rotina das empresas mais simples e eficientes.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-gold" href="#projects">Ver projetos</a>
+          </div>
+          <a class="scroll-hint" href="#manifesto">
+            <span>Explore</span>
+            <b aria-hidden="true">↓</b>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-portrait-wrap">
+        <img class="hero-portrait parallax-image" src="assets/ana-cristina.webp" alt="Foto profissional de Ana Cristina Domingues" width="1200" height="1500" fetchpriority="high" decoding="async" onerror="this.hidden=true">
+      </div>
+
+      <div class="hero-index" aria-hidden="true">01</div>
+    </section>
+
+    <section id="manifesto" class="manifesto section-light">
+      <div class="container manifesto-layout">
+        <div class="section-kicker reveal-up">
+          <span>02</span>
+          <p>Manifesto</p>
+        </div>
+
+        <div class="manifesto-copy">
+          <p class="eyebrow reveal-up">Ideia boa precisa virar prática</p>
+          <h2 class="display-title split-lines">
+            Nem só marketing. Nem só tecnologia.
+Gosto de trabalhar onde comunicação, processos e tecnologia se encontram. É nesse espaço que normalmente surgem os projetos mais interessantes.
+          </h2>
+          <div class="manifesto-columns">
+            <p class="reveal-up">
+              Minha atuação integra comunicação, dados, tecnologia e organização para transformar ideias em soluções aplicáveis ao dia a dia das empresas.
+            </p>
+            <p class="reveal-up">
+              Tenho um perfil mão na massa e gosto de entender como diferentes áreas podem trabalhar melhor juntas. Transito entre marketing, comercial, produção, logística, atendimento e tecnologia, buscando soluções que realmente funcionem no dia a dia.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="numbers section-cream" aria-labelledby="numbers-title">
+      <div class="container">
+        <div class="section-heading">
+          <div class="section-kicker reveal-up">
+            <span>03</span>
+            <p>Indicadores</p>
+          </div>
+          <div>
+            <p class="eyebrow reveal-up">Na prática</p>
+            <h2 id="numbers-title" class="display-title split-lines">Um pouco do que já passou pela minha rotina profissional.</h2>
+          </div>
+        </div>
+
+        <div class="numbers-grid">
+          <article class="number-card reveal-up">
+            <strong>100+
+            </strong>
+            <span>materiais e peças de comunicação</span>
+          </article>
+          <article class="number-card reveal-up">
+            <strong>
+          08+
+            </strong>
+            <span>eventos e feiras apoiados</span>
+          </article>
+          <article class="number-card reveal-up">
+            <strong>
+             07+
+            </strong>
+            <span>projetos digitais estruturados</span>
+          </article>
+          <article class="number-card reveal-up">
+            <strong>18+
+              </strong>
+            <span>processos melhorados</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section-light">
+      <div class="container about-layout">
+        <div>
+          <div class="section-kicker reveal-up">
+            <span>04</span>
+            <p>Sobre mim</p>
+          </div>
+          <p class="eyebrow reveal-up">Atuação integrada</p>
+          <h2 class="display-title split-lines">Gosto de estar onde comunicação, operação e tecnologia se encontram.</h2>
+        </div>
+        <div class="about-copy">
+          <p class="reveal-up">
+            Atuo na integração entre marketing, tecnologia e gestão de processos, unindo comunicação, organização e iniciativas digitais para melhorar a rotina das empresas.
+          </p>
+          <p class="reveal-up">
+            Meu foco é entender o cenário, organizar informações, construir mensagens claras e desenvolver soluções digitais.
+          </p>
+          <div class="about-pill-group reveal-up" aria-label="Posicionamento profissional">
+            <span>Marketing Estratégico</span>
+            <span>Tecnologia</span>
+            <span>Transformação Digital</span>
+            <span>Processos</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="trajectory" class="trajectory section-light">
+      <div class="container trajectory-layout">
+        <div class="trajectory-intro">
+          <div class="section-kicker reveal-up">
+            <span>05</span>
+            <p>Trajetória</p>
+          </div>
+          <p class="eyebrow reveal-up">Em evolução constante</p>
+          <h2 class="display-title split-lines">Aprender continuamente, colocar em prática e evoluir a cada projeto.</h2>
+          <p class="trajectory-text reveal-up">
+            Administração, desenvolvimento de sistemas e vivência industrial me ajudam a enxergar o negócio por vários ângulos, do conteúdo ao processo.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-rail" aria-hidden="true"><span></span></div>
+
+          <article class="timeline-item reveal-up">
+            <p class="timeline-year">2020</p>
+            <div>
+              <h3>Técnico em Administração</h3>
+              <p>Base para entender rotina, organização, processos e como a operação acontece na prática.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal-up">
+            <p class="timeline-year">2022</p>
+            <div>
+              <h3>Início da atuação na OuroPlast</h3>
+              <p>Vivência próxima do marketing, da operação e das melhorias que acontecem dentro da empresa.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal-up">
+            <p class="timeline-year">2023</p>
+            <div>
+              <h3>Desenvolvimento de Software Multiplataforma</h3>
+              <p>Contato mais profundo com programação, lógica de sistemas, produto digital e construção de melhorias.</p>
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal-up">
+            <p class="timeline-year">2022 até hoje</p>
+            <div>
+              <h3>Marketing, eventos e transformação digital</h3>
+              <p>Projetos com comunicação, feiras, CRM, análise de dados, relatórios, processos, automações e soluções digitais.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects section-dark">
+      <div class="container projects-header">
+        <div class="section-kicker reveal-up">
+          <span>06</span>
+          <p>Projetos selecionados</p>
+        </div>
+
+        <p class="eyebrow reveal-up">Estudos de caso</p>
+        <h2 class="display-title split-lines">Projetos que mostram como eu penso, organizo e executo.</h2>
+        <p class="projects-intro reveal-up">
+          Aqui estão alguns projetos em que comunicação, eventos, marca e processos aparecem juntos. Alguns abrem com fotos reais do trabalho; o projeto de redes sociais leva direto aos perfis.
+        </p>
+      </div>
+
+      <div class="project-list">
+        <article class="project-panel project-banatech">
+          <div class="project-media">
+            <img class="project-image" src="assets/banatech-capa.webp" alt="Imagem de capa do projeto Banatech" width="1800" height="1200" loading="lazy" decoding="async" onerror="this.hidden=true">
+          </div>
+          <div class="project-shade"></div>
+          <div class="project-content container">
+            <p class="project-number">01 / Estratégia de evento</p>
+            <h3>BANATECH</h3>
+            <p class="project-role">Meu papel: Planejamento e organização</p>
+            <p class="project-summary">Atuação no planejamento do evento, produção de materiais, divulgação, relacionamento com participantes e organização das entregas.</p>
+            <div class="project-tags">
+              <span>Evento</span>
+              <span>Comunicação</span>
+              <span>Experiência de marca</span>
+            </div>
+            <button class="project-open" type="button" data-case-open="case-banatech" aria-haspopup="dialog">
+              <span>Ver estudo de caso</span>
+              <b aria-hidden="true">↗</b>
+            </button>
+          </div>
+        </article>
+
+        <article class="project-panel project-feibanana">
+          <div class="project-media">
+            <img class="project-image" src="assets/feibanana-capa.webp" alt="Imagem de capa do projeto FEIBANANA" width="1800" height="1200" loading="lazy" decoding="async" onerror="this.hidden=true">
+          </div>
+          <div class="project-shade"></div>
+          <div class="project-content container">
+            <p class="project-number">02 / Posicionamento de marca</p>
+            <h3>FEIBANANA</h3>
+            <p class="project-role">Meu papel: Comunicação e materiais</p>
+            <p class="project-summary">Desenvolvimento de conteúdos, materiais visuais e ações de divulgação para a presença da OuroPlast na feira.</p>
+            <div class="project-tags">
+              <span>Bananicultura</span>
+              <span>Branding</span>
+              <span>Banaroll</span>
+            </div>
+            <button class="project-open" type="button" data-case-open="case-feibanana" aria-haspopup="dialog">
+              <span>Ver estudo de caso</span>
+              <b aria-hidden="true">↗</b>
+            </button>
+          </div>
+        </article>
+
+        <article class="project-panel project-fruit">
+          <div class="project-media">
+            <img class="project-image" src="assets/fruit-connections-capa.webp" alt="Imagem de capa do projeto Abanorte Fruit Connections" width="1800" height="1200" loading="lazy" decoding="async" onerror="this.hidden=true">
+          </div>
+          <div class="project-shade"></div>
+          <div class="project-content container">
+            <p class="project-number">03 / Relacionamento regional</p>
+            <h3>ABANORTE FRUIT CONNECTIONS</h3>
+            <p class="project-role">Meu papel: Conteúdo e relacionamento</p>
+            <p class="project-summary">Criação de materiais, organização de fornecedores e comunicação voltada à aproximação com produtores do Norte de Minas.</p>
+            <div class="project-tags">
+              <span>Relacionamento</span>
+              <span>Fruticultura</span>
+              <span>Roteiro institucional</span>
+            </div>
+            <button class="project-open" type="button" data-case-open="case-fruit" aria-haspopup="dialog">
+              <span>Ver estudo de caso</span>
+              <b aria-hidden="true">↗</b>
+            </button>
+          </div>
+        </article>
+
+        <article class="project-panel project-social">
+          <div class="project-media">
+            <img class="project-image" src="assets/redes-sociais-capa.webp" alt="Imagem de capa do projeto de redes sociais" width="1800" height="1200" loading="lazy" decoding="async" onerror="this.hidden=true">
+          </div>
+          <div class="project-shade"></div>
+          <div class="project-content container">
+            <p class="project-number">04 / Redes sociais</p>
+            <h3>REDES SOCIAIS</h3>
+            <p class="project-role">Meu papel: Conteúdo e rotina digital</p>
+            <p class="project-summary">Gestão de perfis com criação de conteúdo, organização de publicações e comunicação adaptada a públicos diferentes.</p>
+            <div class="project-tags">
+              <span>Instagram</span>
+              <span>Conteúdo</span>
+              <span>Marca</span>
+            </div>
+            <div class="project-social-links" aria-label="Perfis de redes sociais">
+              <a class="project-open" href="https://www.instagram.com/ouro.plast/" target="_blank" rel="noreferrer">
+                <span>OuroPlast</span>
+                <b aria-hidden="true">↗</b>
+              </a>
+              <a class="project-open" href="https://www.instagram.com/caicarapariquera/" target="_blank" rel="noreferrer">
+                <span>Caiçara</span>
+                <b aria-hidden="true">↗</b>
+              </a>
+              <a class="project-open" href="https://www.instagram.com/obazardasembalagens/" target="_blank" rel="noreferrer">
+                <span>Bazar das Embalagens</span>
+                <b aria-hidden="true">↗</b>
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="digital section-cream">
+      <div class="container digital-layout">
+        <div class="digital-copy">
+          <div class="section-kicker reveal-up">
+            <span>07</span>
+            <p>Transformação digital</p>
+          </div>
+          <p class="eyebrow reveal-up">Tecnologia com pé no chão</p>
+          <h2 class="display-title split-lines">Digitalizar não é complicar. É deixar informação e processo mais fáceis de usar.</h2>
+          <p class="reveal-up">
+            Atuei na digitalização de rotinas internas por meio da criação de dashboards, organização de informações, uso de CRM, automações, relatórios gerenciais e entregas
+            voltadas às áreas comercial, logística, produção, estoque e atendimento.
+          </p>
+        </div>
+
+        <div class="digital-cards">
+          <article class="digital-card reveal-up">
+            <span>01</span>
+            <h3>CRM e atendimento</h3>
+            <p>Uso e análise de RD Station CRM, RD Conversas, acompanhamento comercial, relatórios e experiência do cliente.</p>
+          </article>
+          <article class="digital-card reveal-up">
+            <span>02</span>
+            <h3>Processos e operação</h3>
+            <p>Mapeamento de gargalos e organização de fluxos ligados a indicadores, estoque, pedidos, produção e logística.</p>
+          </article>
+          <article class="digital-card reveal-up">
+            <span>03</span>
+            <h3>Dados e dashboards</h3>
+            <p>Planilhas estruturadas, relatórios executivos, indicadores e visualizações para apoiar decisões.</p>
+          </article>
+          <article class="digital-card reveal-up">
+            <span>04</span>
+            <h3>Soluções digitais</h3>
+            <p>HTML, CSS, JavaScript, backend, Swagger, JWT, roles, automações e estrutura inicial de mini ERP.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="tools" class="tools section-light">
+      <div class="container">
+        <div class="section-heading">
+          <div class="section-kicker reveal-up">
+            <span>08</span>
+            <p>Ferramentas</p>
+          </div>
+          <div>
+            <p class="eyebrow reveal-up">Meu kit de trabalho</p>
+            <h2 class="display-title split-lines">Ferramentas que uso para criar, organizar, analisar e melhorar processos.</h2>
+          </div>
+        </div>
+
+        <div class="tool-grid">
+          <article class="tool-card reveal-up">
+            <h3>Marketing e comunicação</h3>
+            <p>Produção de conteúdo, identidade visual e comunicação institucional para diferentes canais.</p>
+            <ul>
+              <li>
+                Figma
+              </li>
+              <li>Canva</li>
+                            <li>
+                              WordPress
+                            </li>
+                            <li>
+                              SEO
+                            </li>
+              <li>Redes sociais</li>
+              <li>Criação de conteúdo</li>
+              <li>Identidade visual</li>
+              <li>Branding</li>
+              <li>Comunicação institucional</li>
+            </ul>
+          </article>
+          <article class="tool-card reveal-up">
+            <h3>CRM e análise comercial</h3>
+            <p>Gestão comercial, acompanhamento de indicadores e análise de dados para apoiar decisões.</p>
+            <ul>
+              <li>RD Station CRM</li>
+              <li>RD Conversas</li>
+              <li>Excel</li>
+              <li>Google Sheets</li>
+              <li>Relatórios</li>
+              <li>Dashboards</li>
+              <li>Indicadores</li>
+              <li>Análise de dados</li>
+            </ul>
+          </article>
+          <article class="tool-card reveal-up">
+            <h3>Tecnologia</h3>
+            <p>Desenvolvimento de aplicações web, integrações e automações voltadas para melhoria da rotina.</p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>GitHub</li>
+              <li>Swagger</li>
+              <li>JWT</li>
+              <li>Backend</li>
+              <li>Automações</li>
+            </ul>
+          </article>
+          <article class="tool-card reveal-up">
+            <h3>Operação e negócios</h3>
+            <p>Organização de fluxos, documentação e melhoria contínua conectando diferentes áreas.</p>
+            <ul>
+              <li>Melhoria de processos</li>
+              <li>Documentação</li>
+              <li>Organização interna</li>
+              <li>ERP</li>
+              <li>Análise operacional</li>
+              <li>Planejamento</li>
+              <li>Integração entre áreas</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="expertise" class="expertise section-light">
+      <div class="container">
+        <div class="section-heading">
+          <div class="section-kicker reveal-up">
+            <span>09</span>
+            <p>Expertise</p>
+          </div>
+          <div>
+            <p class="eyebrow reveal-up">O que eu levo para a mesa</p>
+            <h2 class="display-title split-lines">Um repertório híbrido para atuar entre conteúdo, dados, tecnologia e operação.</h2>
+          </div>
+        </div>
+
+        <div class="expertise-list">
+          <article class="expertise-row reveal-up">
+            <span>01</span><h3>Marketing e comunicação</h3><p>Desenvolvo conteúdos, materiais institucionais, campanhas e textos comerciais com foco em clareza, linguagem de marca e objetivo da comunicação.</p>
+          </article>
+          <article class="expertise-row reveal-up">
+            <span>02</span><h3>Eventos e experiências</h3><p>Atuei na organização de feiras, criação de materiais, cobertura, certificados e comunicação antes, durante e depois dos eventos.</p>
+          </article>
+          <article class="expertise-row reveal-up">
+            <span>03</span><h3>CRM, comercial e atendimento</h3><p>Acompanho informações comerciais, relatórios, indicadores e oportunidades de melhoria na experiência do cliente.</p>
+          </article>
+          <article class="expertise-row reveal-up">
+            <span>04</span><h3>Tecnologia</h3><p>Desenvolvimento de aplicações web, integração de APIs, autenticação, versionamento e soluções voltadas para rotinas internas.</p>
+          </article>
+          <article class="expertise-row reveal-up">
+            <span>05</span><h3>Processos internos</h3><p>Organizo informações e acompanho rotinas ligadas à operação, produção, estoque, pedidos, logística e indicadores.</p>
+          </article>
+          <article class="expertise-row reveal-up">
+            <span>06</span><h3>Organização institucional</h3><p>Desenvolvi roteiros, mensagens profissionais, relatórios, dashboards, procedimentos e documentos para padronizar informações.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section-dark">
+      <div class="contact-orbit" aria-hidden="true"></div>
+      <div class="container contact-layout">
+        <div class="section-kicker reveal-up">
+          <span>10</span>
+          <p>Contato</p>
+        </div>
+        <p class="eyebrow reveal-up">Vamos conversar</p>
+        <h2 class="contact-title split-lines">Aberta a conversar, aprender e construir bons projetos em equipe.</h2>
+        <p class="contact-text reveal-up">
+         Estou aberta a oportunidades para desenvolver projetos que integrem marketing, tecnologia e transformação digital, contribuindo para o crescimento de empresas por meio de soluções práticas e inovação.
+        </p>
+        <div class="contact-actions reveal-up">
+          <a class="button button-gold" href="mailto:anacristina.gn.br@gmail.com">E-mail</a>
+          <a class="button button-outline" href="https://www.linkedin.com/in/ana-cristina-domingues-a08470217" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a class="button button-outline" href="#projects">Acessar projetos</a>
+        </div>
+      </div>
+      <footer class="footer container">
+        <p>© 2026 Ana Cristina Domingues</p>
+        <p>Marketing Estratégico • Tecnologia • Transformação Digital • Processos</p>
+      </footer>
+    </section>
+  </main>
+
+  <button class="back-to-top" type="button" aria-label="Voltar ao topo">↑</button>
+
+  <dialog id="case-banatech" class="case-study-modal" aria-labelledby="case-banatech-title">
+    <div class="case-study-shell" data-lenis-prevent data-lenis-prevent-wheel data-lenis-prevent-touch>
+      <button class="case-study-close" type="button" data-case-close aria-label="Fechar estudo de caso">×</button>
+      <div class="case-study-head">
+        <h2 id="case-banatech-title">BANATECH</h2>
+        <div class="case-mini-tags" aria-label="Frentes do projeto">
+          <span>Planejamento</span>
+          <span>Divulgação</span>
+          <span>Relacionamento</span>
+        </div>
+        <div class="case-text-blocks">
+          <article>
+            <h3>Contexto</h3>
+            <p>Primeiro 
+         projeto voltado à bananicultura e tech, criado para aproximar a marca dos produtores e entender melhor as demandas reais do campo.
+
+            </p>
+          </article>
+          <article>
+            <h3>Minha atuação</h3>
+            <p>Atuei no planejamento e na organização do evento desde as etapas iniciais até a execução, acompanhando fornecedores, produção de materiais, divulgação, visitas a clientes, palestras e ações de relacionamento.</p>
+          </article>
+          <article>
+            <h3>Resultado</h3>
+            <p>A experiência ajudou a construir uma presença mais próxima do público, com materiais organizados, comunicação clara e mais conexão com produtores da região.</p>
+          </article>
+        </div>
+      </div>
+      <div class="case-gallery" aria-label="Galeria BANATECH">
+        <img src="assets/banatech-01.webp" alt="Material real do projeto Banatech" loading="lazy" decoding="async" onerror="this.hidden=true">
+        <img src="assets/banatech-02.webp" alt="Registro real do projeto Banatech" loading="lazy" decoding="async" onerror="this.hidden=true">
+        <img src="assets/banatech-03.webp" alt="Registro real do projeto Banatech" loading="lazy" decoding="async" onerror="this.hidden=true">
+        <img src="assets/banatech-04.webp" alt="Registro real do projeto Banatech" loading="lazy" decoding="async" onerror="this.hidden=true">
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="case-feibanana" class="case-study-modal" aria-labelledby="case-feibanana-title">
+    <div class="case-study-shell" data-lenis-prevent data-lenis-prevent-wheel data-lenis-prevent-touch>
+      <button class="case-study-close" type="button" data-case-close aria-label="Fechar estudo de caso">×</button>
+      <div class="case-study-head">
+        <h2 id="case-feibanana-title">FEIBANANA</h2>
+        <div class="case-mini-tags" aria-label="Frentes do projeto">
+          <span>Feira</span>
+          <span>Materiais visuais</span>
+          <span>Produtor rural</span>
+        </div>
+        <div class="case-text-blocks">
+          <article>
+            <h3>Contexto</h3>
+            <p>Feira ligada à bananicultura e à história da OuroPlast em Pariquera-Açu, com contato direto com produtores, parceiros e visitantes do setor.</p>
+          </article>
+          <article>
+            <h3>Minha atuação</h3>
+            <p>Atuei na organização da participação da OuroPlast em diferentes edições da FEIBANANA, desenvolvendo materiais de comunicação, alinhando fornecedores, acompanhando a divulgação e fortalecendo a presença da marca durante o evento.</p>
+          </article>
+          <article>
+            <h3>Resultado</h3>
+            <p>A participação ganhou uma apresentação mais organizada e coerente, com materiais visuais alinhados, comunicação mais clara e maior valorização da conexão da empresa com a região.</p>
+          </article>
+        </div>
+      </div>
+      <div class="case-gallery" aria-label="Galeria FEIBANANA">
+        <img src="assets/feibanana-01.webp" alt="Registro real da FEIBANANA" loading="lazy" decoding="async" onerror="this.hidden=true">
+        <img src="assets/feibanana-02.webp" alt="Material institucional da FEIBANANA" loading="lazy" decoding="async" onerror="this.hidden=true">
+        <img src="assets/feibanana-03.webp" alt="Material institucional da FEIBANANA" loading="lazy" decoding="async" onerror="this.hidden=true">
+        <img src="assets/feibanana-04.webp" alt="Material institucional da FEIBANANA" loading="lazy" decoding="async" onerror="this.hidden=true">
+        <img src="assets/feibanana-05.webp" alt="Material institucional da FEIBANANA" loading="lazy" decoding="async" onerror="this.hidden=true">
+           <img src="assets/feibanana-06.webp" alt="Material institucional da FEIBANANA" loading="lazy" decoding="async" onerror="this.hidden=true">
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="case-fruit" class="case-study-modal" aria-labelledby="case-fruit-title">
+    <div class="case-study-shell" data-lenis-prevent data-lenis-prevent-wheel data-lenis-prevent-touch>
+      <button class="case-study-close" type="button" data-case-close aria-label="Fechar estudo de caso">×</button>
+      <div class="case-study-head">
+        <h2 id="case-fruit-title">ABANORTE FRUIT CONNECTIONS</h2>
+        <div class="case-mini-tags" aria-label="Frentes do projeto">
+          <span>Roteiro</span>
+          <span>Materiais de apoio</span>
+          <span>Conexão regional</span>
+        </div>
+        <div class="case-text-blocks">
+          <article>
+            <h3>Contexto</h3>
+            <p>Evento voltado à fruticultura no Norte de Minas, com oportunidade de aproximar a OuroPlast de produtores de uma região importante para a bananicultura.</p>
+          </article>
+          <article>
+            <h3>Minha atuação</h3>
+            <p>Desenvolvi materiais de comunicação, acompanhei o planejamento da participação da empresa, organizei fornecedores e contribuí para aproximar a marca dos produtores da região.</p>
+          </article>
+          <article>
+            <h3>Resultado</h3>
+            <p>A comunicação ficou mais regional, humana e direta, com materiais de apoio preparados para apresentar soluções da empresa e fortalecer o relacionamento com o público do evento.</p>
+          </article>
+        </div>
+      </div>
+      <div class="case-gallery" aria-label="Galeria Abanorte Fruit Connections">
+        <img src="assets/fruit-connections-01.webp" alt="Registro real do Abanorte Fruit Connections" loading="lazy" decoding="async" onerror="this.hidden=true">
+        <img src="assets/fruit-connections-02.webp" alt="Material institucional do Abanorte Fruit Connections" loading="lazy" decoding="async" onerror="this.hidden=true">
+        <img src="assets/fruit-connections-03.webp" alt="Material institucional do Abanorte Fruit Connections" loading="lazy" decoding="async" onerror="this.hidden=true">
+        <img src="assets/fruit-connections-04.webp" alt="Material institucional do Abanorte Fruit Connections" loading="lazy" decoding="async" onerror="this.hidden=true">
+        <img src="assets/fruit-connections-05.webp" alt="Material institucional do Abanorte Fruit Connections" loading="lazy" decoding="async" onerror="this.hidden=true">
+        <img src="assets/fruit-connections-06.webp" alt="Material institucional do Abanorte Fruit Connections" loading="lazy" decoding="async" onerror="this.hidden=true">
+      </div>
+    </div>
+  </dialog>
+
+</body>
+</html>
